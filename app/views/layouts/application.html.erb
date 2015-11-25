@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Get Your Own Blog</title>
-  <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  <head>
+    <title>Phil Sofia's personal website</title>
+    <header id="header">Get Your Own Blog</header>
+    <div id="header-subtitle">this one's mine</div>
+    <div id="header-sub-subtitle">(the true story of Phil Sofia)</div>
+    <div id="header-sub-sub-subtitle">is this enough levels?</div>
+    <div id="header-sub-sub-sub-subtitle">yes</div>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <nav id="nav">
+      <a class="tag_link" href="about.html">Who Is Phil?</a> |
+      <a class="tag_link" href="#">Blog</a> | 
+      <a class="tag_link" href="#">Funny Stuff</a> | 
+      <a class="tag_link" href="contact.html">Contact</a>
+    </nav>
+    <%= yield %>
+    <footer id="footer">copyright 2015</footer>
+  </body>
 </html>
