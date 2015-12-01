@@ -2,55 +2,55 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-/* hex colors brown 7F3F27 FFB69B FF7E4E 7F5B4D CC643F */
-
 * {
-  font-family: Open Sans, Arial;
-  background-color: #C7DFC7;
+  font-family: 'Gloria Hallelujah', cursive;
+ font-family: 'Gentium Book Basic', serif;
+  color: #525059;
+  
 
 }
 a, a:visited {
   text-decoration: none;
-  color: #807D8C;
+  color: #525059;
 
 }
 
+  a:hover { 
+    color: #6587DF;
+}
 
 #header {
-  background-color: #C7DFC7;
+  background-color: #C2D7EA;
   margin-left: 10%;
   width: 80%;
   text-align: center;
-  font-size: 5em;
+  font-size: 4em;
   border-radius: 5px;
-  font-family: 'Droid Sans', sans-serif; 
-  color: #525059;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #0F3D66;
 }
 
 #header-subtitle {
-  background-color: #C7DFC7;
   margin-left: 10%;
   width: 80%;
   text-align: center;
   font-size: 2em;
-  border-radius: 5px;
-  font-family: 'Droid Sans', sans-serif; 
+  border-radius: 0px;
+  font-family: 'Gloria Hallelujah', cursive;
   color: #525059;
 }
 
 #header-sub-subtitle {
-  background-color: #C7DFC7;
   margin-left: 10%;
   width: 80%;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
   border-radius: 5px;
-  font-family: 'Droid Sans', sans-serif; 
+ font-family: 'Gloria Hallelujah', cursive;
   color: #525059;
 }
 
 #header-sub-sub-subtitle {
-  background-color: #C7DFC7;
   margin-left: 10%;
   width: 80%;
   text-align: center;
@@ -61,7 +61,6 @@ a, a:visited {
 }
 
 #header-sub-sub-sub-subtitle {
-  background-color: #C7DFC7;
   margin-left: 10%;
   width: 80%;
   text-align: center;
@@ -73,7 +72,6 @@ a, a:visited {
 
 
 #nav {
-  background-color: #C7DFC7;
   text-align: center; 
   /*font-size: 1.5em; */
   color: #525059;
@@ -81,19 +79,15 @@ a, a:visited {
 }
 
 .tag_link {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: 'Gentium Book Basic', serif;
   text-align: center;
   font-size: 1.5em;
   padding: 1em 1em 1em 1em;
-  background-color: #C7DFC7;
 }
 
-a.tag_link:hover {
-  color: #FF0000;
-  }
+
 
 #span {
-  background-color: #C7DFC7;
 
 }
 
@@ -109,7 +103,6 @@ a.tag_link:hover {
 }
 
 #section2 {
-  background-color: #C7DFC7;
   float: left;
   width: 26%;
   height: 20em;
@@ -119,7 +112,7 @@ a.tag_link:hover {
 }
 
 #section3 {
-  background-color: #C7DFC7;
+
   float: left;
   margin-left: 1%;
   width: 26%;
@@ -129,13 +122,12 @@ a.tag_link:hover {
 }
 
 #footer {
-  background-color: #C7DFC7;
+
   position: fixed;
   margin-left: 10%;
   width: 80%;
   bottom: 0%;
   text-align: center;
-  color: #525059;
 }
 
 .post_title {
