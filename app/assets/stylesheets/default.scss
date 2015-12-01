@@ -1,0 +1,95 @@
+* {
+  font-family: 'Gentium Book Basic', serif;
+  color: #525059;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover { 
+  color: #6587DF;
+}
+
+#header {
+  background-color: #C2D7EA;
+  margin-left: 10%;
+  width: 80%;
+  text-align: center;
+  font-size: 4em;
+  border-radius: 5px;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #0F3D66;
+}
+
+#header-subtitle {
+  margin-left: 10%;
+  width: 80%;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#header-sub-subtitle {
+  margin-left: 10%;
+  width: 80%;
+  text-align: center;
+  font-size: 0.9em;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#nav {
+  text-align: center; 
+  padding-top: 2em;
+}
+
+#about_resume_link{
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+#projects {
+  float: left;
+  margin-left: 10%;
+  width: 80%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#footer {
+  margin-left: 10%;
+  width: 80%;
+  bottom: 0%;
+  text-align: center;
+  font-size: 0.85em;
+}
+
+.tag_link {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 1em 1em 1em 1em;
+}
+
+.center_title {
+  margin-left: 10%;
+  text-align: center;
+  width: 80%;
+  font-size: 1.5em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-weight: bold;}
+
+.center_body {
+  margin-left: 10%;
+  text-align: center;
+  width: 80%;
+  font-size: 2em;
+  margin-bottom: 1%;
+}
+
+.center_tight {
+  margin-left: 20%;
+  text-align: left;
+  width: 60%;
+  font-size: 1em;
+}
