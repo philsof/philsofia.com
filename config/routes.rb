@@ -1,19 +1,22 @@
 Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-
+  
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-  root 'static_pages#about'
+  root 'static_pages#projects'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
   get 'contact' => 'static_pages#contact'
   get 'about' => 'static_pages#about'
   get 'projects' => 'static_pages#projects'
-  get "/404", :to => "errors#not_found"
-  get "/422", :to => "errors#unacceptable"
-  get "/500", :to => "errors#internal_error"
+  
+  if Rails.env.production?
+    get '404', :to => 'errors#page_not_found'
+    get '422', :to => 'errors#server_error'
+    get '500', :to => 'errors#server_error'
+  end
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 

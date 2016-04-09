@@ -5,10 +5,11 @@
 
 a, a:visited {
   text-decoration: none;
+  color: #6587DF;
 }
 
 a:hover { 
-  color: #6587DF;
+  color: #FF0000;
 }
 
 #header {
@@ -92,4 +93,9 @@ a:hover {
   width: 60%;
   text-align: left;
   font-size: 1em;
+}
+
+#error_pic {
+  max-width: 100%;
+    height: auto;
 }
