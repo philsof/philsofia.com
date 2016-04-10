@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'contact' => 'static_pages#contact'
   get 'about' => 'static_pages#about'
   get 'projects' => 'static_pages#projects'
+  get 'projects/2048' => 'static_pages#2048'
   
   if Rails.env.production?
     get '404', :to => 'errors#page_not_found'
