@@ -1,0 +1,76 @@
+table{width:100%;height:400px;}
+
+td{border:3px solid darkblue; width:50px;
+  height:50px; text-align: center; font-size: 24px;, color: black;}
+
+#val2 {
+  background-color: orange;
+}
+
+#val4 {
+  background-color: blue;
+  color: white;
+}
+
+#val8 {
+  background-color: pink;
+}
+
+#val16 {
+  background-color: purple;
+  color: white;
+}
+
+#val32 {
+  background-color: aqua;
+}
+
+#val64 {
+  background-color: lightgrey;
+}
+
+#val128 {
+  background-color: yellowgreen;
+}
+
+#val256 {
+  background-color: peachpuff;
+}
+
+#val512  {
+  background-color: mediumseagreen;
+}
+
+#val1024 {
+  background-color: crimson;
+}
+
+#val2048 {
+  background-color: black;
+  color: white;
+}
+
+#val4096 {
+  background-color: olive;
+}
+
+#val8192 {
+  background-color: indigo;
+  color: white;
+}
+
+#score-div {
+  margin-top: 20px;
+  font-size: 24px;
+  color: black;
+}
+
+#new-game-button {
+  margin-top: 20px;
+}
+
+#game_div {
+  margin-left: 35%;
+  margin-right: 35%;
+  width: 30%;
+}
