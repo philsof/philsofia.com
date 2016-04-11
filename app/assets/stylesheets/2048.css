@@ -1,4 +1,4 @@
-table{width:500px;height:500px;}
+table{width:100%;height:400px;}
 
 td{border:3px solid darkblue; width:50px;
   height:50px; text-align: center; font-size: 24px;, color: black;}
@@ -67,4 +67,10 @@ td{border:3px solid darkblue; width:50px;
 
 #new-game-button {
   margin-top: 20px;
+}
+
+#game_div {
+  margin-left: 35%;
+  margin-right: 35%;
+  width: 30%;
 }
