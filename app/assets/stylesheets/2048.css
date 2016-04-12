@@ -1,7 +1,5 @@
-table{width:100%;height:400px;}
-
-td{border:3px solid darkblue; width:50px;
-  height:50px; text-align: center; font-size: 24px; color: black;}
+td{border:3px solid darkblue; width:100px;
+  height:100px; text-align: center; font-size: 24px; color: black;}
 
 #val2 {
   background-color: orange;
@@ -59,18 +57,30 @@ td{border:3px solid darkblue; width:50px;
   color: white;
 }
 
+#left {
+  margin-left: 100px;
+  width: 500px;
+  float: left;  
+}
+
+#right {
+  margin-left: 600px; 
+  width: 400px;
+  font-size: 1.5em;
+}
+
+.clear {
+  clear: both;
+}
+
+button {
+  font-size: 1.5em;
+}
+
 #score-div {
-  margin-top: 20px;
-  font-size: 24px;
-  color: black;
+  font-size: 2em;
 }
 
-#new-game-button {
-  margin-top: 20px;
-}
-
-#game_div {
-  margin-left: 35%;
-  margin-right: 35%;
-  width: 30%;
+#game-title {
+  font-weight: bold;
 }
