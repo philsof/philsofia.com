@@ -1,8 +1,13 @@
-<div id="game_div">
+<div id='container'>
 <div id="game_text" class="center_body_small">
-<p>2048</p>
-<p><a href="https://github.com/philsof/2048">Code and more info</a></p>
+  <p id='game-title'>2048: Join the numbers and get to the 2048 tile!
+  </p>
+  <p>
+    <a href="https://github.com/philsof/2048">Code and more info
+    </a>
+  </p>
 </div>
+<div id=left>
   <table>
     <tbody id="board">
       <tr>
@@ -29,8 +34,14 @@
         <td>-</td>
         <td>-</td>
       </tr>
-    </table>
-  </tbody>
-  <div id="score-div">Score: <span id="score">0</span></div>
+    </tbody>
+  </table>
+  <div id="score-div">Score: <span id="score">0</span>
+  </div>
   <button type="button" id="new-game-button">New Game</button>
+</div>
+<div id='right'>
+   <p>HOW TO PLAY: Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!</p>
+</div>
+<div class="clear"></div>
 </div>
